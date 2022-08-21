@@ -1,7 +1,9 @@
 package com.tkm.viewmodel
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.lifecycle.ViewModelProvider
@@ -28,7 +30,8 @@ class MainActivity : AppCompatActivity() {
     private val mTvNum1: TextView by lazy { findViewById(R.id.tv_num1) }
     private val mTvNum2: TextView by lazy { findViewById(R.id.tv_num2) }
     private val mTvNum3: TextView by lazy { findViewById(R.id.tv_num3) }
-    private val mBtnPlus: TextView by lazy { findViewById(R.id.btn_plus) }
+    private val mBtnPlus: Button by lazy { findViewById(R.id.btn_plus) }
+    private val mBtnFragments: Button by lazy { findViewById(R.id.btn_fragments) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,6 +59,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         mViewModel.startThread()
+
+        mBtnFragments.setOnClickListener {
+            val intent = Intent(this, FragmentsActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onSaveInstanceState(outState: Bundle) {

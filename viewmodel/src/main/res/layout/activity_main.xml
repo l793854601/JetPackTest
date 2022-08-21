@@ -35,4 +35,11 @@
         android:text="Plus"
         android:textAllCaps="false" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_fragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Fragments"
+        android:textAllCaps="false" />
 </LinearLayout>
