@@ -16,3 +16,4 @@ rootProject.name = "JetPackTest"
 include ':app'
 include ':lifecycle'
 include ':viewmodel'
+include ':databinding'
