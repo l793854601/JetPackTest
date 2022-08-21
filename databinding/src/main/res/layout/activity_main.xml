@@ -21,12 +21,26 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/ivAvatar"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:scaleType="centerCrop"
-            app:avatar="@{idol.icon}" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:avatar="@{idol.icon}" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="30dp"
+                android:scaleType="centerCrop"
+                app:error="@{idol.icon}"
+                app:remoteAvatar="@{idol.avatar}" />
+
+        </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvName"
