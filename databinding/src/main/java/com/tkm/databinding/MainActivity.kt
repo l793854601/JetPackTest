@@ -1,5 +1,6 @@
 package com.tkm.databinding
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -21,5 +22,10 @@ class MainActivity : AppCompatActivity() {
             10)
         mBinding.idol = idol
         mBinding.likeClickHandler = LikeClickHandler(this)
+
+        mBinding.btnLogin.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/Android/JetPackTest/app/src/main/res/layout/activity_main.xml" value="0.23541666666666666" />
+        <entry key="..\:/Projects/Android/JetPackTest/databinding/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Projects/Android/JetPackTest/databinding/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Projects/Android/JetPackTest/lifecycle/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/activity_fragments.xml" value="0.2171875" />
