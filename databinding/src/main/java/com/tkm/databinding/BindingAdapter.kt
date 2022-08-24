@@ -24,11 +24,15 @@ fun setStar(view: TextView, star: Int) {
     view.text = "${star}星"
 }
 
-@BindingAdapter(value = ["remoteAvatar", "error"], requireAll = true)
-fun setRemoteAvatar(view: ImageView, url: String?, @DrawableRes error: Int) {
+/**
+ * value：指明xml中的属性
+ * requireAll：属性是否全部都在xml中赋值
+ */
+@BindingAdapter(value = ["remoteAvatar", "error"], requireAll = false)
+fun setRemoteAvatar(view: ImageView, url: String?, @DrawableRes error: Int?) {
     Glide.with(view)
         .load(url)
-        .placeholder(error)
-        .error(error)
+        .placeholder(error ?: R.mipmap.ic_launcher)
+        .error(error ?: R.mipmap.ic_launcher)
         .into(view)
 }

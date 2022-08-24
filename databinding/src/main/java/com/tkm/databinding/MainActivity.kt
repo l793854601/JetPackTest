@@ -27,5 +27,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+
+        mBinding.btnGirls.setOnClickListener {
+            val intent = Intent(this, GirlListActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
