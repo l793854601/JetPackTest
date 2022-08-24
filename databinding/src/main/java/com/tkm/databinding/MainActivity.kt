@@ -32,5 +32,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, GirlListActivity::class.java)
             startActivity(intent)
         }
+
+        mBinding.btnScores.setOnClickListener {
+            val intent = Intent(this, ScoreBoardActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

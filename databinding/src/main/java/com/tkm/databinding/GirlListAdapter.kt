@@ -22,7 +22,6 @@ class GirlListAdapter : RecyclerView.Adapter<GirlListAdapter.ViewHolder>() {
         val inflater = LayoutInflater.from(parent.context)
         val binding: LayoutGirlListItemBinding = DataBindingUtil.inflate(
             inflater, R.layout.layout_girl_list_item, parent, false)
-        binding.lifecycleOwner
         return ViewHolder(binding)
     }
 

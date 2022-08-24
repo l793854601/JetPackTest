@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPackTest">
         <activity
+            android:name=".ScoreBoardActivity"
+            android:exported="false" />
+        <activity
             android:name=".GirlListActivity"
             android:exported="false" />
         <activity
