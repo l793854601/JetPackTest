@@ -1,10 +1,11 @@
-package com.tkm.databinding
+package com.tkm.databinding.login
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.tkm.databinding.R
 import com.tkm.databinding.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {

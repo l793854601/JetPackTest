@@ -7,11 +7,11 @@
 
         <variable
             name="idol"
-            type="com.tkm.databinding.Idol" />
+            type="com.tkm.databinding.basic.Idol" />
 
         <variable
             name="likeClickHandler"
-            type="com.tkm.databinding.LikeClickHandler" />
+            type="com.tkm.databinding.basic.LikeClickHandler" />
     </data>
 
     <LinearLayout
@@ -19,7 +19,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".basic.MainActivity">
 
         <LinearLayout
             android:layout_width="wrap_content"

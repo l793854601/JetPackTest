@@ -1,4 +1,4 @@
-package com.tkm.databinding
+package com.tkm.databinding.basic
 
 import android.content.Context
 import android.view.View

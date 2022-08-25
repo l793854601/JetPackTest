@@ -1,4 +1,4 @@
-package com.tkm.databinding
+package com.tkm.databinding.girls
 
 data class Girl(
     val avatar: String?,

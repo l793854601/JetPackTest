@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tkm.databinding">
-
-    <uses-permission android:name="android.permission.INTERNET" />
+    package="com.tkm.room">
 
     <application
         android:allowBackup="true"
@@ -11,15 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPackTest">
-        <activity
-            android:name=".scoreboard.ScoreBoardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".girls.GirlListActivity"
-            android:exported="false" />
-        <activity
-            android:name=".login.LoginActivity"
-            android:exported="false" />
         <activity
             android:name=".basic.MainActivity"
             android:exported="true">

@@ -1,4 +1,4 @@
-package com.tkm.databinding
+package com.tkm.databinding.login
 
 import androidx.databinding.ObservableField
 import androidx.lifecycle.MutableLiveData

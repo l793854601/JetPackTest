@@ -5,7 +5,7 @@
     <data>
         <variable
             name="girl"
-            type="com.tkm.databinding.Girl" />
+            type="com.tkm.databinding.girls.Girl" />
     </data>
 
     <LinearLayout

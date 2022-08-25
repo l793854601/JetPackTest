@@ -1,4 +1,4 @@
-package com.tkm.databinding
+package com.tkm.databinding.basic
 
 import androidx.annotation.DrawableRes
 

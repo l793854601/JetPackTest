@@ -1,9 +1,10 @@
-package com.tkm.databinding
+package com.tkm.databinding.scoreboard
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.tkm.databinding.R
 import com.tkm.databinding.databinding.ActivityScoreBoardBinding
 
 class ScoreBoardActivity : AppCompatActivity() {

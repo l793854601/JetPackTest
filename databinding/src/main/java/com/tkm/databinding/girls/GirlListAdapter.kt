@@ -1,10 +1,11 @@
-package com.tkm.databinding
+package com.tkm.databinding.girls
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.tkm.databinding.R
 import com.tkm.databinding.databinding.LayoutGirlListItemBinding
 
 class GirlListAdapter : RecyclerView.Adapter<GirlListAdapter.ViewHolder>() {

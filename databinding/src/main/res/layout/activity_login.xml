@@ -5,7 +5,7 @@
 
         <variable
             name="viewModel"
-            type="com.tkm.databinding.LoginViewModel" />
+            type="com.tkm.databinding.login.LoginViewModel" />
     </data>
 
     <LinearLayout

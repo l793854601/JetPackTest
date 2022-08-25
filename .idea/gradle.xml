@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/databinding" />
             <option value="$PROJECT_DIR$/lifecycle" />
+            <option value="$PROJECT_DIR$/room" />
             <option value="$PROJECT_DIR$/viewmodel" />
           </set>
         </option>

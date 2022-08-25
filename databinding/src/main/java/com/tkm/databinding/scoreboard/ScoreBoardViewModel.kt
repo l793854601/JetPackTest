@@ -1,4 +1,4 @@
-package com.tkm.databinding
+package com.tkm.databinding.scoreboard
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

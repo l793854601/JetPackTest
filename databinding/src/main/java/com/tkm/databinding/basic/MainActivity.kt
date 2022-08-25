@@ -1,9 +1,13 @@
-package com.tkm.databinding
+package com.tkm.databinding.basic
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.tkm.databinding.girls.GirlListActivity
+import com.tkm.databinding.login.LoginActivity
+import com.tkm.databinding.R
+import com.tkm.databinding.scoreboard.ScoreBoardActivity
 import com.tkm.databinding.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

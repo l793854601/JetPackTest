@@ -1,9 +1,10 @@
-package com.tkm.databinding
+package com.tkm.databinding.girls
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.tkm.databinding.R
 import com.tkm.databinding.databinding.ActivityGirlListBinding
 
 class GirlListActivity : AppCompatActivity() {
