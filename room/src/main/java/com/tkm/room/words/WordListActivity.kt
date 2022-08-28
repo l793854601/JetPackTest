@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.tkm.room.App
 import com.tkm.room.R
 
 class WordListActivity : AppCompatActivity() {
@@ -15,7 +16,7 @@ class WordListActivity : AppCompatActivity() {
     }
 
     private val mViewModel by lazy {
-        ViewModelProvider(this, WordViewModelFactory((application as WordApplication).repository))[WordViewModel::class.java]
+        ViewModelProvider(this, WordViewModelFactory((application as App).wordRepository))[WordViewModel::class.java]
     }
 
     private lateinit var mRv: RecyclerView
