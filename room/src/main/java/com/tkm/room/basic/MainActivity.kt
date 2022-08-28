@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onInsertClick(view: View) {
         listOf(
-            Student(userId = 2, name = "Jenny", age = 18),
+            Student(userId = 2, name = "Jenny", age = 18, 0, 0),
             Student(name = "Kate", age = 17),
             Student(name = "Jessica", age = 19)
         ).toTypedArray().let {
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
     fun onUpdateClick(view: View) {
         StudentDatabase.getInstance(this)
             .userDao()
-            .updateUsers(Student(userId = 2, name = "TKM", age = 24))
+            .updateUsers(Student(userId = 2, name = "TKM", age = 24, 0, 0))
 
         //  查询
         onQueryClick(view)

@@ -20,6 +20,7 @@
         <entry key="room/src/main/res/layout/activity_new_contact.xml" value="0.32395833333333335" />
         <entry key="room/src/main/res/layout/activity_start.xml" value="0.32395833333333335" />
         <entry key="room/src/main/res/layout/layout_contact_list_item.xml" value="0.3229166666666667" />
+        <entry key="room/src/main/res/layout/layout_student_list_item.xml" value="0.275" />
       </map>
     </option>
   </component>

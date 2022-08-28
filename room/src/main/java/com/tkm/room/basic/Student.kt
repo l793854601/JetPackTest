@@ -18,14 +18,35 @@ data class Student(
     val name: String?,
 
     @ColumnInfo(name = "age", typeAffinity = ColumnInfo.INTEGER)
-    val age: Int?
+    val age: Int,
+
+    @ColumnInfo(name = "sex", typeAffinity = ColumnInfo.INTEGER)
+    val sex: Int,
+
+    @ColumnInfo(name = "bar_data", typeAffinity = ColumnInfo.INTEGER)
+    val barData: Int,
 ) {
     /**
      * 仅测试用
      */
     @Ignore
-    constructor(name: String?, age: Int) : this(0, name, age)
+    constructor(name: String?, age: Int) : this(0, name, age, 0, 0)
 
     @Ignore
-    constructor(userId: Int) : this(userId, null, 0)
+    constructor(userId: Int) : this(userId, null, 0, 0, 0)
+
+    val displaySex: String
+        get() {
+            return when (sex) {
+                1 -> {
+                    "Male"
+                }
+                2 -> {
+                    "Female"
+                }
+                else -> {
+                    "Unknown"
+                }
+            }
+        }
 }
