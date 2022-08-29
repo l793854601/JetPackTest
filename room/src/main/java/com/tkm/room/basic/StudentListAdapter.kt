@@ -34,16 +34,18 @@ class StudentListAdapter : RecyclerView.Adapter<StudentListAdapter.ViewHolder>()
         return mList.size
     }
 
-    class ViewHolder(private val itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         private val mTvNo: TextView = itemView.findViewById(R.id.tv_no)
         private val mTvName: TextView = itemView.findViewById(R.id.tv_name)
         private val mTvAge: TextView = itemView.findViewById(R.id.tv_age)
+        private val mTvSex: TextView = itemView.findViewById(R.id.tv_sex)
 
         fun bind(student: Student) {
             mTvNo.text = "id：${student.userId}"
             mTvName.text = "name：${student.name}"
             mTvAge.text = "age：${student.age}"
+            mTvSex.text = "sex: ${student.displaySex}"
         }
     }
 }

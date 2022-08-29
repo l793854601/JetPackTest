@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.tkm.room.basic.MainActivity
+import com.tkm.room.contact.ContactListActivity
 import com.tkm.room.words.WordListActivity
 
 class StartActivity : AppCompatActivity() {
@@ -19,6 +20,12 @@ class StartActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.btn_word).setOnClickListener {
             val intent = Intent(this, WordListActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        findViewById<Button>(R.id.btn_contact).setOnClickListener {
+            val intent = Intent(this, ContactListActivity::class.java)
             startActivity(intent)
         }
     }
