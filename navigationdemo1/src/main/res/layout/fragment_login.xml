@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_to_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到注册" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_to_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到忘记密码" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_to_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到用户协议" />
+
+</LinearLayout>
