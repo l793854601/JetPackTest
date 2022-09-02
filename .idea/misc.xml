@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="..\:/Projects/Android/JetPackTest/app/src/main/res/layout/activity_main.xml" value="0.23541666666666666" />
         <entry key="..\:/Projects/Android/JetPackTest/databinding/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Projects/Android/JetPackTest/databinding/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -21,11 +22,6 @@
         <entry key="..\:/Projects/Android/JetPackTest/navigation_demo/src/main/res/layout/fragment_mine_main.xml" value="0.184375" />
         <entry key="..\:/Projects/Android/JetPackTest/navigation_demo/src/main/res/layout/fragment_video_main.xml" value="0.184375" />
         <entry key="..\:/Projects/Android/JetPackTest/navigation_demo/src/main/res/menu/menu_bottom_main.xml" value="0.184375" />
-        <entry key="..\:/Projects/Android/JetPackTest/navigationdemo1/src/main/res/layout/activity_agreement.xml" value="0.1828125" />
-        <entry key="..\:/Projects/Android/JetPackTest/navigationdemo1/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Projects/Android/JetPackTest/navigationdemo1/src/main/res/layout/fragment_forget.xml" value="0.25" />
-        <entry key="..\:/Projects/Android/JetPackTest/navigationdemo1/src/main/res/layout/fragment_login.xml" value="0.25" />
-        <entry key="..\:/Projects/Android/JetPackTest/navigationdemo1/src/main/res/layout/fragment_register.xml" value="0.25" />
         <entry key="..\:/Projects/Android/JetPackTest/room/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1365" />
         <entry key="..\:/Projects/Android/JetPackTest/room/src/main/res/layout/activity_new_word.xml" value="0.196875" />
         <entry key="..\:/Projects/Android/JetPackTest/room/src/main/res/layout/activity_start.xml" value="0.215625" />
@@ -35,6 +31,26 @@
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/fragment_1.xml" value="0.2171875" />
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/fragment_2.xml" value="0.2171875" />
+        <entry key="navigation/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="navigation_demo/src/main/res/layout/activity_main.xml" value="0.32395833333333335" />
+        <entry key="navigation_demo/src/main/res/layout/fragment_account_main.xml" value="0.32395833333333335" />
+        <entry key="navigation_demo/src/main/res/layout/fragment_cloud_main.xml" value="0.32395833333333335" />
+        <entry key="navigation_demo/src/main/res/layout/fragment_discovery_main.xml" value="0.32395833333333335" />
+        <entry key="navigation_demo/src/main/res/layout/fragment_mine_main.xml" value="0.32395833333333335" />
+        <entry key="navigation_demo/src/main/res/layout/fragment_video_main.xml" value="0.32395833333333335" />
+        <entry key="navigation_demo/src/main/res/menu/menu_main_bottom.xml" value="0.32395833333333335" />
+        <entry key="navigationdemo1/src/main/res/layout/activity_agreement.xml" value="0.29259259259259257" />
+        <entry key="navigationdemo1/src/main/res/layout/activity_main.xml" value="0.29259259259259257" />
+        <entry key="navigationdemo1/src/main/res/layout/fragment_avatar.xml" value="0.32395833333333335" />
+        <entry key="navigationdemo1/src/main/res/layout/fragment_forget.xml" value="0.32395833333333335" />
+        <entry key="navigationdemo1/src/main/res/layout/fragment_login.xml" value="0.32395833333333335" />
+        <entry key="navigationdemo1/src/main/res/layout/fragment_register.xml" value="0.32395833333333335" />
+        <entry key="navigationdemo2/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="navigationdemo2/src/main/res/layout/fragment_home.xml" value="0.203125" />
+        <entry key="navigationdemo2/src/main/res/layout/fragment_onsale.xml" value="0.20208333333333334" />
+        <entry key="navigationdemo2/src/main/res/layout/fragment_red_pocket.xml" value="0.203125" />
+        <entry key="navigationdemo2/src/main/res/layout/fragment_search.xml" value="0.203125" />
+        <entry key="navigationdemo2/src/main/res/menu/main_bottom_navi.xml" value="0.203125" />
         <entry key="room/src/main/res/layout/activity_contact_list.xml" value="0.275" />
         <entry key="room/src/main/res/layout/activity_new_contact.xml" value="0.32395833333333335" />
         <entry key="room/src/main/res/layout/activity_start.xml" value="0.32395833333333335" />

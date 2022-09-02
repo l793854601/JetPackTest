@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment"
+        android:title="首页" />
+    <item android:id="@+id/onsaleFragment"
+        android:title="精选" />
+    <item android:id="@+id/redPocketFragment"
+        android:title="红包" />
+    <item android:id="@+id/searchFragment"
+        android:title="搜索" />
+</menu>

@@ -10,4 +10,10 @@
         android:layout_height="wrap_content"
         android:text="忘记密码" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
 </LinearLayout>

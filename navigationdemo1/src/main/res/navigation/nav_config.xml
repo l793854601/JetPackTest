@@ -8,16 +8,25 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.tkm.navigationdemo1.fragments.LoginFragment"
-        android:label="LoginFragment" >
+        android:label="LoginFragment">
+
         <action
             android:id="@+id/action_loginFragment_to_forgetFragment"
-            app:destination="@id/forgetFragment" />
+            app:destination="@id/forgetFragment"
+            app:enterAnim="@anim/slide_from_right_to_left_in"
+            app:exitAnim="@anim/slide_from_right_to_left_out"
+            app:popEnterAnim="@anim/slide_from_left_to_right_in"
+            app:popExitAnim="@anim/slide_from_left_to_right_out" />
+
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
+
         <action
             android:id="@+id/action_loginFragment_to_agreementActivity"
-            app:destination="@id/agreementActivity" />
+            app:destination="@id/agreementActivity">
+        </action>
+
     </fragment>
 
     <fragment
@@ -28,11 +37,43 @@
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.tkm.navigationdemo1.fragments.RegisterFragment"
-        android:label="RegisterFragment" />
+        android:label="RegisterFragment">
+
+        <action
+            android:id="@+id/action_registerFragment_to_avatarFragment"
+            app:destination="@id/avatarFragment"
+            app:enterAnim="@anim/slide_from_right_to_left_in"
+            app:exitAnim="@anim/slide_from_right_to_left_out"
+            app:popEnterAnim="@anim/slide_from_left_to_right_in"
+            app:popExitAnim="@anim/slide_from_left_to_right_out" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/avatarFragment"
+        android:name="com.tkm.navigationdemo1.fragments.AvatarFragment"
+        android:label="AvatarFragment">
+        <action
+            android:id="@+id/action_avatarFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/slide_from_right_to_left_in"
+            app:exitAnim="@anim/slide_from_right_to_left_out"
+            app:popEnterAnim="@anim/slide_from_left_to_right_in"
+            app:popExitAnim="@anim/slide_from_left_to_right_out"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 
     <activity
         android:id="@+id/agreementActivity"
         android:name="com.tkm.navigationdemo1.AgreementActivity"
         android:label="activity_agreement"
-        tools:layout="@layout/activity_agreement" />
+        tools:layout="@layout/activity_agreement">
+
+        <argument android:name="username"
+            app:argType="string" />
+        <argument android:name="password"
+            app:argType="string" />
+
+    </activity>
 </navigation>
