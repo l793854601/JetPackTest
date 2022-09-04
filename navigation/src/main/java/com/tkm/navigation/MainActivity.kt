@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         //  您应改为直接从 NavHostFragment 检索 NavController
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         val navController = navHostFragment.navController
-        navController.addOnDestinationChangedListener { controller, destination, arguments ->
+        navController.addOnDestinationChangedListener { _, destination, _ ->
             Log.d(TAG, "OnDestinationChanged: $destination")
         }
 

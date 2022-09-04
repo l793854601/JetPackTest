@@ -20,5 +20,9 @@ include ':databinding'
 include ':room'
 include ':navigation'
 include ':navigationdemo1'
+<<<<<<< HEAD
 include ':workmanager'
 include ':viewbinding'
+=======
+include ':navigationdemo2'
+>>>>>>> c576053e12936d9da129ae7a9e72011ca2fd37e9
