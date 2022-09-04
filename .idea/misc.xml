@@ -31,10 +31,14 @@
         <entry key="..\:/Projects/Android/JetPackTest/room/src/main/res/layout/activity_start.xml" value="0.215625" />
         <entry key="..\:/Projects/Android/JetPackTest/room/src/main/res/layout/activity_word_list.xml" value="0.215625" />
         <entry key="..\:/Projects/Android/JetPackTest/room/src/main/res/layout/layout_word_list_item.xml" value="0.215625" />
+        <entry key="..\:/Projects/Android/JetPackTest/viewbinding/src/main/res/layout/activity_main.xml" value="0.2390625" />
+        <entry key="..\:/Projects/Android/JetPackTest/viewbinding/src/main/res/layout/fragment_sub.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/Android/JetPackTest/viewbinding/src/main/res/layout/layout_text_item.xml" value="0.25" />
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/activity_fragments.xml" value="0.2171875" />
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/fragment_1.xml" value="0.2171875" />
         <entry key="..\:/Projects/Android/JetPackTest/viewmodel/src/main/res/layout/fragment_2.xml" value="0.2171875" />
+        <entry key="..\:/Projects/Android/JetPackTest/workmanager/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
         <entry key="room/src/main/res/layout/activity_contact_list.xml" value="0.275" />
         <entry key="room/src/main/res/layout/activity_new_contact.xml" value="0.32395833333333335" />
         <entry key="room/src/main/res/layout/activity_start.xml" value="0.32395833333333335" />
