@@ -24,3 +24,5 @@ include ':navigationdemo2'
 include ':workmanager'
 include ':viewbinding'
 
+include ':paging2'
+include ':paging3'
