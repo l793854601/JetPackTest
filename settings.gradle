@@ -26,3 +26,4 @@ include ':viewbinding'
 
 include ':paging2'
 include ':paging3'
+include ':paging3_basic'
